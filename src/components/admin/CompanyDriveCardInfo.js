@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const AdminDriveInfo = () => {
     useEffect(() => {
-        axios.get('https://s2c-nexus-3gq5.onrender.com/company/driveInfo', {
+        axios.get('https://s2c-nexus-backend.onrender.com/company/driveInfo', {
           params: {
             driveId: localStorage.getItem("activeAdminDriveId")
           }
